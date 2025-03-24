@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import SkipSelection from './pages/SkipSelection';
-// import './App.css';
+import './App.css';
 
 function App() {
   return (

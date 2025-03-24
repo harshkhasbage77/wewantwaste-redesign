@@ -1,16 +1,4 @@
-.skip-selection {
-    text-align: center;
-    padding: 20px;
-}
-
-.skip-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.skip-card {
+.skipcard {
     background: #f9f9f9;
     border-radius: 10px;
     padding: 15px;
@@ -28,7 +16,7 @@
     border-radius: 5px;
 }
 
-.select-btn {
+.selectbtn {
     background: #007bff;
     color: white;
     padding: 10px;
