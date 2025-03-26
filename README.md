@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# WeWantWaste Webpage Redesign
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Bio
 
-## Available Scripts
+Hi, I'm Harsh Khasbage, a CSE under graduate from IIT Kharagpur. I have deep interest in software engineering and its application in real life problems. I have previously worked in various industries such as music, online education, metaverse, and web services where I proved my software skills. I love to sing, paint, play badminton and do adventure activies. You can reach me out on my linkedin.
 
-In the project directory, you can run:
+[LinkedIn](https://www.linkedin.com/in/harshkhasbage77/) <br>
+[My Portfolio](https://harshkhasbage77.github.io/3d_harsh/)
 
-### `npm start`
+## Overview
+This repository contains the redesign of the WeWantWaste webpage. The project focuses on creating an interactive and user-friendly navigation bar with modern design principles.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
+- **React**: For building the component-based UI.
+- **Tailwind CSS**: For styling the components in a utility-first manner.
+- **Lucide Icons**: For adding modern and lightweight icons.
+- **Flowbite**: For UI components like buttons and badges.
+- **UI Verse**: For complex UI components like loaders.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Libraries and Components
+- **React**: To create reusable and functional components.
+- **Lucide-react**: To render scalable SVG icons for better UI/UX.
+- **Tailwind CSS**: For quick and efficient styling.
+- **Flowbite-react**: For reusable components.
 
-### `npm test`
+## Styling Approach
+- **Tailwind CSS**: Used to ensure a responsive and mobile-friendly UI with minimal CSS files.
+- **CSS Modules**: Used for scoped styling where necessary, ensuring class names do not clash.
+- **Dark Mode Support**: Included Tailwind’s dark mode utility classes for theme adaptability.
+- **Hover Effects**: Implemented using Tailwind's `group-hover` and `hover:bg-gray-50` for a smooth user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How I Solved the Assignment
+1. **Start: Initializing the Project**
+   - Created the project using Create React App.
+   - Installed required dependencies like Tailwind CSS, Lucide-react, and Flowbite.
 
-### `npm run build`
+2. **Fetching Data and Displaying Components**
+   - Implemented a simple data fetch mechanism.
+   - Built the **Card component** to display fetched data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Adding Core Functionalities**
+   - Integrated logic to handle user interactions.
+   - Ensured smooth and intuitive navigation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Enhancing Styling and UI**
+   - Used Flowbite for improved UI elements.
+   - Applied **CSS Modules** for scoped styling.
+   - Improved button styling and layout for better user experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Finalizing Code and Documentation**
+   - Ensured the code was clean and optimized.
+   - Created this **README.md** to document the project.
 
-### `npm run eject`
+## How to Run the Project
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/wewantwaste-redesign.git
+   cd wewantwaste-redesign
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Start the Development Server**
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Future Improvements
+- Adding **React Tooltip** for enhanced user guidance.
+- Implementing **animations** for button clicks.
+- Enhancing accessibility with better keyboard navigation support.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+This project successfully meets the assignment requirements while following best practices in React development and UI/UX design. 🚀
